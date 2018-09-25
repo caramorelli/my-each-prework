@@ -8,6 +8,7 @@ def my_each(arr)
   end 
   new_arr
 end
+tas = ['arel', 'jon', 'logan', 'spencer']
 
 print my_each(tas) do |ta|
       ta = "testing 1 2 3"
