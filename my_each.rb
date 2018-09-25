@@ -8,3 +8,8 @@ def my_each(arr)
   end 
   new_arr
 end
+
+print my_each(tas) do |ta|
+      ta = "testing 1 2 3"
+    end
+    
