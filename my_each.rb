@@ -12,4 +12,5 @@ end
 print my_each(tas) do |ta|
       ta = "testing 1 2 3"
     end
+    puts ' '
     
