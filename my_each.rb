@@ -6,11 +6,8 @@ def my_each(arr)
       new_arr << yield(arr[idx])
     else 
       new_arr << arr[idx]
-    
-      idx += 1
     end 
-  else 
-    
+    idx += 1
   end 
   new_arr
 end
