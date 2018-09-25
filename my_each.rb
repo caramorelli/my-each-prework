@@ -18,6 +18,7 @@ def my_each(arr)
     yield(arr[idx])
     idx += 1
   end 
+  arr
 end 
 
 
