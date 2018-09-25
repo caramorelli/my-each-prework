@@ -12,6 +12,13 @@
 #   new_arr
 # end
 
+def my_each(arr)
+  idx = 0 
+  while idx < arr.length 
+    yield(arr[idx])
+  end 
+end 
+
 
 
     
