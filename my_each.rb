@@ -5,7 +5,7 @@ def my_each(arr)
     if block_given?
       new_arr << yield(arr[idx])
     else 
-      
+      new_arr << arr[idx]
     
       idx += 1
     end 
