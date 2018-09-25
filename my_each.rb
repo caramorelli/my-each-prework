@@ -1,17 +1,20 @@
 def my_each(arr)
   new_arr = []
-  # 0.upto(self.length - 1) { |idx| new_arr << yield(self[idx]) }
   idx = 0 
   while idx < arr.length 
-    yield(arr[idx])
-    idx += 1
+    if block_given?
+      new_arr << yield(arr[idx])
+    else 
+      
+    
+      idx += 1
+    end 
+  else 
+    
   end 
   new_arr
 end
-tas = ['arel', 'jon', 'logan', 'spencer']
 
-print my_each(tas) do |ta|
-      ta = "testing 1 2 3"
-    end
-    puts ' '
+
+
     
