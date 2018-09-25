@@ -7,7 +7,4 @@ def my_each(arr)
     idx += 1
   end 
   new_arr
-  
-  
-  
 end
